@@ -181,13 +181,14 @@ function handleAdd() {
 
 async function handleBatchDelete() {
   // request
-  console.log(checkedRowKeys.value);
+  // console.log(checkedRowKeys.value);
 
   onBatchDeleted();
 }
 
 function handleDelete(id: number) {
   // request
+  // eslint-disable-next-line no-console
   console.log(id);
 
   onDeleted();
