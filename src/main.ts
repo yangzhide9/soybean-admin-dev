@@ -1,5 +1,7 @@
 import { createApp } from 'vue';
+// 样式
 import './plugins/assets';
+// 插件
 import {
   setupAppVersionNotification,
   setupDayjs,
@@ -8,9 +10,13 @@ import {
   setupNProgress,
   setupProNaiveComponents
 } from './plugins';
+// 仓库
 import { setupStore } from './store';
+// 路由
 import { setupRouter } from './router';
+// 多语言
 import { setupI18n } from './locales';
+// 根组件
 import App from './App.vue';
 
 async function setupApp() {
